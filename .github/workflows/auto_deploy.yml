@@ -31,5 +31,3 @@ jobs:
     - name: deployment using surge 
       run: surge ./BootCamp2020ByFaizanAbbasi.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       
-        echo Add other actions to build,
-        echo test, and deploy your project.
